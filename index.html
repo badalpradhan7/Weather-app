@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="side-info left">
+        <p><strong>Did You Know?</strong></p>
+        <p>The highest temperature ever recorded on Earth was 134°F (56.7°C) in Furnace Creek, California, on July 10, 1913.</p>
+        <p>Humidity affects how hot or cold we feel. High humidity makes it feel hotter, while low humidity makes it feel cooler.</p>
+    </div>
+
+    <div class="container">
+        <h1>Weather Checker</h1>
+        <input type="text" id="city" placeholder="Enter city name">
+        <button onclick="getWeather()">Check Weather</button>
+        <div id="weather-result"></div>
+    </div>
+
+    <div class="side-info right">
+        <p><strong>Weather Tips</strong></p>
+        <p>Check the UV index before going out to protect your skin from harmful sun rays.</p>
+        <p>Carry an umbrella during monsoon season, as sudden showers are common.</p>
+    </div>
+
+    <footer>
+        <p>© 2024 Badal Pradhan</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
